@@ -1,0 +1,61 @@
+{
+  "TYPES.Actor.somebody": "Somebody",
+  "TYPES.Actor.nobody": "Nobody",
+  "TYPES.Actor.troubleshooter": "トラブルシューター",
+  "TYPES.Actor.accomplice": "Accomplice",
+  "TYPES.Item.equipment": "装備",
+
+  "PARANOIA": {
+    "pii": "パート１：個人識別情報 (PII)",
+    "Name": "名前",
+    "TeamName": "チーム名",
+    "MandatoryBonusDuty": "強制ボーナス任務 (MBD)",
+    "ServiceGroup": "サービスグループ",
+    "TreasonButton": "反逆ボタン",
+    "ViolenceButton": "暴力ボタン",
+    "productivityProfile": "パート通：生産性プロファイル",
+    "wellness": "第参部：ウェルネス",
+    "role": "四番目のパート：社会的役割",
+    "foundry": "Part E: Foundry Data",
+    "naughty": "裏面：いけない面",
+
+    "brains": "知力",
+    "alphaComplex": "アルファコンプレックス",
+    "bureaucracy": "官僚主義",
+    "psychology": "心理学",
+    "science": "科学",
+
+    "chutzpah": "交渉力",
+    "bluff": "ごまかし",
+    "charm": "魅惑",
+    "intimidate": "威圧",
+    "stealth": "秘密行動",
+
+    "mechanics": "技術力",
+    "demolitions": "爆破",
+    "engineer": "機械工作",
+    "operate": "操作",
+    "program": "プログラム",
+
+    "violence": "暴力",
+    "athletics": "運動",
+    "guns": "銃器",
+    "melee": "接近戦",
+    "throw": "投擲",
+    "health": {
+      "fine": "健康",
+      "hurt": "軽傷",
+      "injured": "重症",
+      "maimed": "瀕死",
+      "dead": "死亡"
+    },
+    "wanted": {
+      "loyal": "健全",
+      "greylisted": "グレイリスト",
+      "restricted": "行動制限",
+      "citizen-of-interest": "重要参考人",
+      "wanted": "指名手配"
+    }
+  }
+
+}

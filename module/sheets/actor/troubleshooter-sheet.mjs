@@ -34,18 +34,18 @@ export class ParanoiaTroubleshooterSheet extends ParanoiaActor {
     context.sheetSettings.isObserver = (this.actor.permission === CONST.DOCUMENT_OWNERSHIP_LEVELS.OBSERVER || this.actor.compendium?.locked);
 
     context.healthFlags = {
-      4: "Fine",
-      3: "Hurt",
-      2: "Injured",
-      1: "Maimed",
-      0: "Dead"
+      4: game.i18n.localize("PARANOIA.health.fine"),
+      3: game.i18n.localize("PARANOIA.health.hurt"),
+      2: game.i18n.localize("PARANOIA.health.injured"),
+      1: game.i18n.localize("PARANOIA.health.maimed"),
+      0: game.i18n.localize("PARANOIA.health.dead")
     }
     context.wantedFlags = {
-      0: "Loyal",
-      1: "Greylisted",
-      2: "Restricted",
-      3: "Citizen-Of-Interest",
-      4: "Wanted"
+      0: game.i18n.localize("PARANOIA.wanted.loyal"),
+      1: game.i18n.localize("PARANOIA.wanted.greylisted"),
+      2: game.i18n.localize("PARANOIA.wanted.restricted"),
+      3: game.i18n.localize("PARANOIA.wanted.citizen-of-interest"),
+      4: game.i18n.localize("PARANOIA.wanted.wanted")
     }
 
     // Use a safe clone of the actor data for further operations.
